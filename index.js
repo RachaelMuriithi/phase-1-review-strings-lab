@@ -1,5 +1,5 @@
 // Write your code in this file!
 let currentUser = 'James';
-var welcomeMessage = "Welcome to Flatbook, " + 'James!'; 
-var excitedWelcomeMessage = "WELCOME TO FLATBOOK, " + 'JAMES!';
-var shortGreeting = "Welcome, " +  'J!';
+var welcomeMessage = "Welcome to Flatbook, " + currentUser + '!'; 
+var excitedWelcomeMessage = welcomeMessage.toLocaleUpperCase();
+var shortGreeting = `Welcome, ${currentUser[0]}!`
